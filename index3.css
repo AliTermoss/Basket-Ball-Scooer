@@ -1,0 +1,124 @@
+
+
+
+body{
+    background-color: rgb(64, 34, 92);
+}
+#container #Names{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 8rem;
+   margin-bottom: 1rem;
+}
+
+#container #Names .Home{
+    margin-right: 10rem;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 36px;
+    color: #fff;
+}
+
+#container #Names .Guest{
+    color: #fff;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 36px;
+}
+#container #score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#container #score #score-el{
+    margin-bottom: 26px;
+    border: 3px solid black;
+    width: 140px;
+    height: 120px;
+    margin-right: 8rem;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    }
+    
+    #container #score #score2{
+        margin-bottom: 26px;
+        border: 3px solid rgb(14, 13, 13);
+        width: 140px;
+        height: 120px;
+        background-color: black;
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 127px;
+        text-align: center;
+        color: #F94F6D;
+        }
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.buttons .button-1{
+    margin-right: 1rem;
+    
+}
+
+.buttons .button-2{
+    margin-left: 8.5rem;
+}
+
+.buttons button{
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    background: rgb(64, 34, 92);
+    border: 2px solid rgb(250, 245, 245);
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    
+}
+
+.buttons button:hover{
+    border: 2px solid black;
+    color: wheat;
+    transition: 0.2s;
+}
+
+.btn{
+    margin-top: 5rem;
+    margin-left: 40%;
+}
+
+.btn button{
+    width: 8rem;
+    height: 2rem;
+    font-weight: 900;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn button:hover{
+    color: white;
+    background: black;
+    box-shadow: 3px 3px 3px black;
+    transform: scale(0.9,0.9);
+}
